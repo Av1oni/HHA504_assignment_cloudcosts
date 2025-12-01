@@ -11,7 +11,7 @@ This assignment compares billing, budgeting, and cost-forecasting features acros
 
 ### **1. Billing Overview**
 Azure provides a summary of the billing scope, ownership, and active status.  
-![azure-billing-overview]()
+![azure-billing-overview](C:\Users\antho\Downloads\HHA 504\HHA504_assignment_cloudcosts\screenshots\azure_billing_overview.png)
 
 
 ---
