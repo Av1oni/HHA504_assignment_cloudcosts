@@ -1,79 +1,69 @@
 # HHA504_assignment_cloudcosts
 # Cloud Foundations – Cost Management Assignment  
-**Avion Christie – Stony Brook University**  
-**HHA 504 — Cloud Foundations for Health Informatics**
 
-This assignment compares billing, budgeting, and cost-forecasting features across Microsoft Azure and Google Cloud Platform (GCP). I created budgets, configured alerts, explored cost dashboards, and captured evidence of forecasting and optimization tools.
+This assignment compares cost-management tools in Microsoft Azure and Google Cloud Platform (GCP). I created monthly budgets, made alert thresholds, reviewed cost dashboards, and learned abot forecasting and optimization features on both platforms.
 
 ---
 
-## **Part 1 — Microsoft Azure**
+## Part 1 — Microsoft Azure
 
-### **1. Billing Overview**
-Azure provides a summary of the billing scope, ownership, and active status.  
-![azure-billing-overview](C:\Users\antho\Downloads\HHA 504\HHA504_assignment_cloudcosts\screenshots\azure_billing_overview.png)
-
+### 1. Billing Overview  
+![Azure Billing Overview](screenshots/azure_billing_overview.png)
 
 ---
 
-### **2. Budget Creation**
-I created an **$8 monthly budget** and added an **80% email alert threshold** based on actual cost.  
-![azure-create-budget](path)
+### 2. Budget Creation  
+$8 monthly budget with an 80% alert threshold.  
+![Azure Budget Creation](screenshots/azure_budget_creation.png)
 
 ---
 
-### **3. Cost Analysis / Forecasting**
-The Cost Analysis dashboard displays accumulated cost, budget line, and forecast trend.  
-![azure-cost-analysis](path)
+### 3. Cost Analysis / Forecasting  
+Azure Cost Analysis showing accumulated cost and budget projection.  
+![Azure Cost Analysis](screenshots/azure_cost_analysis.png)
 
 ---
 
-### **4. Azure Advisor (Cost Section)**
-Azure Advisor provides optimization recommendations.  
-My account currently has **no cost recommendations**, which is expected for low/no usage.  
-![azure-advisor](path)
+### 4. Azure Advisor — Cost Section  
+No cost recommendations appeared, which is expected for minimal usage.  
+![Azure Advisor Cost](screenshots/azure_advisor_cost.png)
 
 ---
 
-## **Part 2 — Google Cloud Platform (GCP)**
+## Part 2 — Google Cloud Platform (GCP)
 
-### **1. Billing Overview**
-The GCP Billing dashboard includes total cost, forecast, and FinOps score.  
-![gcp-billing-overview](path)
-
----
-
-### **2. Cost Reports**
-The Reports page shows a breakdown of service usage and forecasted cost by month.  
-![gcp-reports](path)
+### 1. Billing Overview  
+![GCP Billing Overview](screenshots/gcp_billing_overview.png)
 
 ---
 
-### **3. Budget Creation**
-I created a **monthly $8 budget** using the Budgets & Alerts tool.  
-![gcp-create-budget](path)
+### 2. Reports Dashboard  
+![GCP Reports](screenshots/gcp_reports.png)
 
 ---
 
-### **4. Budget Summary with 80% Threshold**
-The final budget includes an **80% alert threshold**, triggering notifications at $6.40.  
-![gcp-budget-summary](path)
+### 3. Budget Creation  
+Monthly $8 budget created under Budgets & Alerts.  
+![GCP Budget Creation](screenshots/gcp_budget_creation.png)
 
 ---
 
-### **5. Cost Breakdown**
-This report shows usage, credits, discounts, and overall cost impact.  
-![gcp-cost-breakdown](path)
+### 4. Budget Summary (80% Threshold)  
+![GCP Budget Summary](screenshots/gcp_budget_summary.png)
 
 ---
 
-### **6. FinOps Hub / Cost Optimization**
-The FinOps Hub displays optimization insights and potential savings.  
-There are no active recommendations, which is normal for new environments.  
-![gcp-finops](path)
+### 5. Cost Breakdown  
+Shows usage, credits, and total cost calculations.  
+![GCP Cost Breakdown](screenshots/gcp_cost_breakdown.png)
 
 ---
 
-## **Conclusion**
-Both Azure and GCP gave strong cost management tools, including alerting, forecasting, and optimization insights. Despite having no active recommendations due to minimal usage, the exercise reinforced how budget alerts and dashboards support cost control and transparency in cloud environments.
+### 6. FinOps Hub / Recommendations  
+No active recommendations were available due to low usage.  
+![GCP FinOps Recommendations](screenshots/gcp_finops_recommendations.png)
 
+---
+
+## Conclusion
+Both Azure and GCP gives strong cost management features. Azure gives detailed forecasting and Advisor insights, while GCP gives a clear billing interface with reports and FinOps help. Although neither platform generated recommendations due to little resource usage, this assignment showed how budgets, alerts, and cost dashboards help manage spending responsibly in cloud environments.
