@@ -67,3 +67,7 @@ No active recommendations were available due to low usage.
 
 ## Conclusion
 Both Azure and GCP gives strong cost management features. Azure gives detailed forecasting and Advisor insights, while GCP gives a clear billing interface with reports and FinOps help. Although neither platform generated recommendations due to little resource usage, this assignment showed how budgets, alerts, and cost dashboards help manage spending responsibly in cloud environments.
+
+## Video Link
+ 
+
